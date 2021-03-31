@@ -106,7 +106,7 @@ wordpressLastName: LastName
 ## Blog name
 ## ref: https://github.com/bitnami/bitnami-docker-wordpress#environment-variables
 ##
-wordpressBlogName: Dude's Blog!
+wordpressBlogName: User's Blog!
 
 ## Table prefix
 ## ref: https://github.com/bitnami/bitnami-docker-wordpress#environment-variables
