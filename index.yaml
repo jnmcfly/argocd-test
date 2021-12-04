@@ -3,6 +3,16 @@ entries:
   app1:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2021-12-04T11:09:28.391501754Z"
+    description: A Helm chart for Kubernetes
+    digest: 03e3c60f8fd8f08e788ba35c7cd6fdcb87c65891c3af2cb769961790fc71d60b
+    name: app1
+    type: application
+    urls:
+    - https://github.com/jnmcfly/argocd-test/releases/download/app1-0.1.1/app1-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2021-12-04T10:26:59.568883933Z"
     description: A Helm chart for Kubernetes
     digest: 3732cf7eb1c61caf4e9555e4e283ee13c7c962fcaa07aa3bc991589cea0d4927
@@ -93,4 +103,4 @@ entries:
     urls:
     - https://github.com/jnmcfly/argocd-test/releases/download/wordpress-10.6.10/wordpress-10.6.10.tgz
     version: 10.6.10
-generated: "2021-12-04T10:27:00.139470871Z"
+generated: "2021-12-04T11:09:28.391510852Z"
