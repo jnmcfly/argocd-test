@@ -27,7 +27,6 @@ jobs:
 
       - name: Add dependency chart repos
         run: |
-          helm repo add jn-argocd-test https://jnmcfly.github.io/argocd-test
           helm repo add bitnami https://charts.bitnami.com/bitnami 
 
       - name: Run chart-releaser
