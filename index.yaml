@@ -1,0 +1,96 @@
+apiVersion: v1
+entries:
+  app1:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-12-04T10:26:59.568883933Z"
+    description: A Helm chart for Kubernetes
+    digest: 3732cf7eb1c61caf4e9555e4e283ee13c7c962fcaa07aa3bc991589cea0d4927
+    name: app1
+    type: application
+    urls:
+    - https://github.com/jnmcfly/argocd-test/releases/download/app1-0.1.0/app1-0.1.0.tgz
+    version: 0.1.0
+  app2:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-12-04T10:26:59.668427601Z"
+    description: A Helm chart for Kubernetes
+    digest: 6cb7d06124b0ec938fe7ba2d4bb6a91508aa66bd00563571cabc7ad4894fa44d
+    name: app2
+    type: application
+    urls:
+    - https://github.com/jnmcfly/argocd-test/releases/download/app2-0.1.0/app2-0.1.0.tgz
+    version: 0.1.0
+  app3:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-12-04T10:26:59.774728761Z"
+    description: A Helm chart for Kubernetes
+    digest: fbd5a01ec4e40d6f1921608ebc418c59bd54a6038a36b1b1befc141c4f74bc1d
+    name: app3
+    type: application
+    urls:
+    - https://github.com/jnmcfly/argocd-test/releases/download/app3-0.1.0/app3-0.1.0.tgz
+    version: 0.1.0
+  app4:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-12-04T10:26:59.886812901Z"
+    description: A Helm chart for Kubernetes
+    digest: a0c56738a20ff42e91b61ab58d20facc0b78dd06201bb10c1bfbc77a3ca01479
+    name: app4
+    type: application
+    urls:
+    - https://github.com/jnmcfly/argocd-test/releases/download/app4-0.1.0/app4-0.1.0.tgz
+    version: 0.1.0
+  app5:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-12-04T10:27:00.002769193Z"
+    description: A Helm chart for Kubernetes
+    digest: 35a5281cc31a6ddd6c863c65bb47bdf997bad8075534795f10701b0ad00c5464
+    name: app5
+    type: application
+    urls:
+    - https://github.com/jnmcfly/argocd-test/releases/download/app5-0.1.0/app5-0.1.0.tgz
+    version: 0.1.0
+  wordpress:
+  - annotations:
+      category: CMS
+    apiVersion: v2
+    appVersion: 5.6.2
+    created: "2021-12-04T10:27:00.139457771Z"
+    dependencies:
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://charts.bitnami.com/bitnami
+      version: 9.x.x
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Web publishing platform for building blogs and websites.
+    digest: 00841df8d5fdde79b8a5ccd78418e7b87372bb06c8deb2ad725e0e0a59f2e276
+    home: https://github.com/bitnami/charts/tree/master/bitnami/wordpress
+    icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
+    keywords:
+    - application
+    - blog
+    - cms
+    - http
+    - php
+    - web
+    - wordpress
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: wordpress
+    sources:
+    - https://github.com/bitnami/bitnami-docker-wordpress
+    - http://www.wordpress.com/
+    urls:
+    - https://github.com/jnmcfly/argocd-test/releases/download/wordpress-10.6.10/wordpress-10.6.10.tgz
+    version: 10.6.10
+generated: "2021-12-04T10:27:00.139470871Z"
